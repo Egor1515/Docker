@@ -9,7 +9,7 @@ branches:
 build: off
 
 install:
-  -java -jar db-api.jar&
+  -java -jar ./artifacts/db-api.jar&
 
 build_script:
   - chmod +x gradlew
